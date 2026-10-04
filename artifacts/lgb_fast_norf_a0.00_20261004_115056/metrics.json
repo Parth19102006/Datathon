@@ -1,0 +1,50 @@
+{
+  "run_name": "lgb_fast_norf_a0.00_20261004_115056",
+  "oof_macro_f1": 0.6625925082353035,
+  "per_fold_f1": [
+    0.6639687107305291,
+    0.6804599802133613,
+    0.6571503548441081,
+    0.6539517220268226,
+    0.6589014932712108
+  ],
+  "per_class_f1": {
+    "1": 0.8657665407487751,
+    "2": 0.6334653052719317,
+    "3": 0.8021238680583337,
+    "4": 0.7653789509459612,
+    "5": 0.4551007246101901,
+    "6": 0.7182243800936362,
+    "7": 0.3980877879182964
+  },
+  "best_iterations": [
+    80,
+    81,
+    94,
+    60,
+    63
+  ],
+  "n_folds": 5,
+  "n_train": 228039,
+  "n_test": 97731,
+  "n_features": 174,
+  "use_row_features": false,
+  "impute": "none",
+  "alpha": 0.0,
+  "fast": true,
+  "lgb_params": {
+    "objective": "multiclass",
+    "num_class": 7,
+    "metric": "multi_logloss",
+    "num_leaves": 32,
+    "min_child_samples": 20,
+    "learning_rate": 0.1,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "n_estimators": 100,
+    "n_jobs": 4,
+    "random_state": 42,
+    "verbosity": -1
+  }
+}

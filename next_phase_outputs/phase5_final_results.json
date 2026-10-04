@@ -1,0 +1,101 @@
+{
+  "experiments": [
+    {
+      "experiment": "Current LGBM baseline",
+      "local_macro_f1": 0.803774556580589,
+      "improvement": 0.0,
+      "offsets": [
+        -0.09375,
+        0.5,
+        -0.25,
+        -0.03125,
+        -0.0625,
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "experiment": "Optimized offsets",
+      "local_macro_f1": 0.8073904602038887,
+      "improvement": 0.0036159036232996655,
+      "offsets": [
+        -0.2578125,
+        0.0625,
+        0.0625,
+        -0.1015625,
+        -0.140625,
+        -0.0546875,
+        0.6875
+      ]
+    },
+    {
+      "experiment": "LGBM + XGB",
+      "local_macro_f1": 0.8079490129493664,
+      "improvement": 0.004174456368777335,
+      "offsets": [
+        -0.21875,
+        0.0625,
+        0.0859375,
+        -0.1015625,
+        -0.203125,
+        -0.0546875,
+        0.6875
+      ]
+    },
+    {
+      "experiment": "LGBM + XGB + CatBoost",
+      "local_macro_f1": 0.807951370866239,
+      "improvement": 0.004176814285649977,
+      "offsets": [
+        -0.1953125,
+        0.0625,
+        0.0859375,
+        -0.1015625,
+        -0.203125,
+        -0.0546875,
+        0.6875
+      ]
+    },
+    {
+      "experiment": "XGB standalone",
+      "local_macro_f1": 0.7993508544370492,
+      "improvement": -0.0044237021435398205,
+      "offsets": null
+    },
+    {
+      "experiment": "CatBoost standalone",
+      "local_macro_f1": 0.7796176962577869,
+      "improvement": -0.024156860322802176,
+      "offsets": null
+    }
+  ],
+  "best_config": {
+    "best_experiment": "LGBM + XGB + CatBoost",
+    "best_local_macro_f1": 0.807951370866239,
+    "baseline_local_macro_f1": 0.803774556580589,
+    "improvement": 0.004176814285649977,
+    "offsets": [
+      -0.1953125,
+      0.0625,
+      0.0859375,
+      -0.1015625,
+      -0.203125,
+      -0.0546875,
+      0.6875
+    ],
+    "lgbm_artifacts": [
+      "next_lgbm_val_proba.npy",
+      "next_lgbm_test_proba.npy"
+    ],
+    "xgb_artifacts": [
+      "next_xgb_val_proba.npy",
+      "next_xgb_test_proba.npy"
+    ],
+    "catboost_artifacts": [
+      "next_cb_val_proba.npy",
+      "next_cb_test_proba.npy"
+    ],
+    "submission": "submission_next.csv",
+    "note": "LightGBM retraining was not performed in this script; it starts from saved LGBM probability artifacts to avoid modifying existing best submissions."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "best_experiment": "LGBM + XGB + CatBoost",
+  "best_local_macro_f1": 0.807951370866239,
+  "baseline_local_macro_f1": 0.803774556580589,
+  "improvement": 0.004176814285649977,
+  "offsets": [
+    -0.1953125,
+    0.0625,
+    0.0859375,
+    -0.1015625,
+    -0.203125,
+    -0.0546875,
+    0.6875
+  ],
+  "lgbm_artifacts": [
+    "next_lgbm_val_proba.npy",
+    "next_lgbm_test_proba.npy"
+  ],
+  "xgb_artifacts": [
+    "next_xgb_val_proba.npy",
+    "next_xgb_test_proba.npy"
+  ],
+  "catboost_artifacts": [
+    "next_cb_val_proba.npy",
+    "next_cb_test_proba.npy"
+  ],
+  "submission": "submission_next.csv",
+  "note": "LightGBM retraining was not performed in this script; it starts from saved LGBM probability artifacts to avoid modifying existing best submissions."
+}

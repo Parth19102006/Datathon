@@ -1,0 +1,50 @@
+{
+  "run_name": "lgb_fast_rf_a0.25_20261004_120031",
+  "oof_macro_f1": 0.7575283201844832,
+  "per_fold_f1": [
+    0.7492705804650213,
+    0.7593430637071636,
+    0.7631941916585099,
+    0.7549005186536205,
+    0.7605667751290875
+  ],
+  "per_class_f1": {
+    "1": 0.8900272720571976,
+    "2": 0.7950784896054306,
+    "3": 0.8208097798612068,
+    "4": 0.7846494381172198,
+    "5": 0.5099058687599823,
+    "6": 0.7243772300238961,
+    "7": 0.7778501628664495
+  },
+  "best_iterations": [
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "n_folds": 5,
+  "n_train": 228039,
+  "n_test": 97731,
+  "n_features": 180,
+  "use_row_features": true,
+  "impute": "none",
+  "alpha": 0.25,
+  "fast": true,
+  "lgb_params": {
+    "objective": "multiclass",
+    "num_class": 7,
+    "metric": "multi_logloss",
+    "num_leaves": 32,
+    "min_child_samples": 20,
+    "learning_rate": 0.1,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "n_estimators": 100,
+    "n_jobs": 4,
+    "random_state": 42,
+    "verbosity": -1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "params": {
+    "iterations": 1000,
+    "learning_rate": 0.05,
+    "depth": 6,
+    "l2_leaf_reg": 3,
+    "loss_function": "MultiClass",
+    "eval_metric": "TotalF1:average=Macro",
+    "random_seed": 42,
+    "class_weights": [
+      1.188506540887059,
+      12.933782346685572,
+      0.6150078211386499,
+      0.6285500670132752,
+      0.9882663315221808,
+      0.5470522969893247,
+      40.848858038513214
+    ],
+    "verbose": 100,
+    "task_type": "CPU"
+  },
+  "best_iteration": 782,
+  "training_seconds": 272.48375630378723,
+  "standalone_macro_f1": 0.7796176962577869,
+  "agreement_with_lgbm": 0.8884406244518506,
+  "agreement_with_xgb": 0.901661989124715,
+  "probability_correlation_with_lgbm": 0.960763606564142,
+  "probability_correlation_with_xgb": 0.9768596615959289
+}

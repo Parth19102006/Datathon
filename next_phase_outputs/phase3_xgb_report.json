@@ -1,0 +1,29 @@
+{
+  "params": {
+    "objective": "multi:softprob",
+    "num_class": 7,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "min_child_weight": 3,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "n_estimators": 800,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.5,
+    "tree_method": "hist",
+    "random_state": 42,
+    "n_jobs": 4,
+    "eval_metric": "mlogloss"
+  },
+  "training_seconds": 277.98019647598267,
+  "standalone_macro_f1": 0.7993508544370492,
+  "agreement_with_lgbm": 0.9267891597965269,
+  "probability_correlation_with_lgbm": 0.9852196518048401,
+  "best_lgbm_xgb_blend": {
+    "weights": {
+      "lgbm": 0.8700000000000003,
+      "xgb": 0.12999999999999967
+    },
+    "macro_f1": 0.8077373639677096
+  }
+}
