@@ -1,0 +1,25 @@
+{
+  "lgbm_val_score": 0.8026246838195087,
+  "lgbm_val_shape": [
+    45608,
+    7
+  ],
+  "lgbm_test_shape": [
+    97731,
+    7
+  ],
+  "xgb_val_score": 0.7558379730276046,
+  "xgb_val_shape": [
+    45608,
+    7
+  ],
+  "xgb_test_shape": [
+    97731,
+    7
+  ],
+  "same_validation_split": true,
+  "same_test_rows": true,
+  "same_class_ordering": true,
+  "probability_shapes_aligned": true,
+  "probability_rows_sum_to_1": true
+}

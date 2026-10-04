@@ -1,0 +1,266 @@
+{
+  "split": {
+    "train_rows": 182431,
+    "val_rows": 45608,
+    "seed": 42
+  },
+  "missing_rate": {
+    "min": 0.1480724219019794,
+    "median": 0.14999369624680015,
+    "max": 0.15211230547439855,
+    "all_features_have_missing": true
+  },
+  "missingness_vs_target_cramers_v_top10": [
+    {
+      "feature": "f95",
+      "cramers_v": 0.011378366083316376,
+      "missing_rate": 0.14828071983380017
+    },
+    {
+      "feature": "f114",
+      "cramers_v": 0.010237689068029852,
+      "missing_rate": 0.14986488042054255
+    },
+    {
+      "feature": "f166",
+      "cramers_v": 0.009985989970440064,
+      "missing_rate": 0.15043495897078896
+    },
+    {
+      "feature": "f55",
+      "cramers_v": 0.009467906560120727,
+      "missing_rate": 0.14910843003656177
+    },
+    {
+      "feature": "f131",
+      "cramers_v": 0.009229800536214526,
+      "missing_rate": 0.14973332383202417
+    },
+    {
+      "feature": "f4",
+      "cramers_v": 0.008706286370700205,
+      "missing_rate": 0.14944828455690096
+    },
+    {
+      "feature": "f94",
+      "cramers_v": 0.00851242493723259,
+      "missing_rate": 0.14962369334159217
+    },
+    {
+      "feature": "f64",
+      "cramers_v": 0.008503456016866428,
+      "missing_rate": 0.15046784811791855
+    },
+    {
+      "feature": "f84",
+      "cramers_v": 0.008330152826372846,
+      "missing_rate": 0.15109822343790255
+    },
+    {
+      "feature": "f29",
+      "cramers_v": 0.008215595071601323,
+      "missing_rate": 0.15063777537808815
+    }
+  ],
+  "max_missingness_cramers_v": 0.011378366083316376,
+  "anova_f_top15": [
+    {
+      "feature": "f75",
+      "score": 7110.573290027952
+    },
+    {
+      "feature": "f95",
+      "score": 5999.183572470077
+    },
+    {
+      "feature": "f93",
+      "score": 5894.196800473098
+    },
+    {
+      "feature": "f92",
+      "score": 5395.393874968667
+    },
+    {
+      "feature": "f96",
+      "score": 5231.050988178382
+    },
+    {
+      "feature": "f74",
+      "score": 5196.940144604124
+    },
+    {
+      "feature": "f98",
+      "score": 5169.48934382422
+    },
+    {
+      "feature": "f44",
+      "score": 4465.6035679953475
+    },
+    {
+      "feature": "f94",
+      "score": 4398.723300635015
+    },
+    {
+      "feature": "f76",
+      "score": 4346.676736874725
+    },
+    {
+      "feature": "f47",
+      "score": 3603.0960897037567
+    },
+    {
+      "feature": "f89",
+      "score": 3163.542977433892
+    },
+    {
+      "feature": "f25",
+      "score": 2801.803436501028
+    },
+    {
+      "feature": "f90",
+      "score": 2375.7935052118187
+    },
+    {
+      "feature": "f49",
+      "score": 2366.1340666975407
+    }
+  ],
+  "mutual_information_top15": [
+    {
+      "feature": "f75",
+      "score": 0.10278244815626225
+    },
+    {
+      "feature": "f93",
+      "score": 0.08972075862989604
+    },
+    {
+      "feature": "f92",
+      "score": 0.08706852244433083
+    },
+    {
+      "feature": "f96",
+      "score": 0.08070476037079333
+    },
+    {
+      "feature": "f95",
+      "score": 0.08027895994289524
+    },
+    {
+      "feature": "f74",
+      "score": 0.0773419907159476
+    },
+    {
+      "feature": "f44",
+      "score": 0.07208258615982732
+    },
+    {
+      "feature": "f98",
+      "score": 0.0638959658911582
+    },
+    {
+      "feature": "f94",
+      "score": 0.057428916318985834
+    },
+    {
+      "feature": "f76",
+      "score": 0.05638128618467109
+    },
+    {
+      "feature": "f47",
+      "score": 0.05153025070356154
+    },
+    {
+      "feature": "f89",
+      "score": 0.04694018854988835
+    },
+    {
+      "feature": "f118",
+      "score": 0.0429130287178725
+    },
+    {
+      "feature": "f102",
+      "score": 0.038674554528155713
+    },
+    {
+      "feature": "f145",
+      "score": 0.03833755278330386
+    }
+  ],
+  "mi_sample_size": 15000,
+  "mi_seconds": 21.765300512313843,
+  "correlation_pairs_abs_ge_0.7": [],
+  "n_corr_pairs_ge_0.7": 0,
+  "train_test_ks": {
+    "n_features_tested": 174,
+    "n_pvalue_lt_0.01": 1,
+    "top10_by_ks_stat": [
+      {
+        "feature": "f117",
+        "ks_stat": 0.028643996649640485,
+        "pvalue": 0.007317766617572167,
+        "std_mean_delta": 0.027195761214002866
+      },
+      {
+        "feature": "f91",
+        "ks_stat": 0.02768921479150377,
+        "pvalue": 0.010433995757995017,
+        "std_mean_delta": 0.05434560908656061
+      },
+      {
+        "feature": "f38",
+        "ks_stat": 0.02732063785942529,
+        "pvalue": 0.012029251276753273,
+        "std_mean_delta": 0.028987809709692183
+      },
+      {
+        "feature": "f7",
+        "ks_stat": 0.027293244290611585,
+        "pvalue": 0.012171144225879576,
+        "std_mean_delta": 0.04558372964224859
+      },
+      {
+        "feature": "f58",
+        "ks_stat": 0.027058230664768756,
+        "pvalue": 0.013701685020140776,
+        "std_mean_delta": 0.03096276994042748
+      },
+      {
+        "feature": "f171",
+        "ks_stat": 0.025345223195661293,
+        "pvalue": 0.024985835399104143,
+        "std_mean_delta": 0.006985224142398812
+      },
+      {
+        "feature": "f129",
+        "ks_stat": 0.024944350709744545,
+        "pvalue": 0.028486708490105896,
+        "std_mean_delta": 0.039148183268563494
+      },
+      {
+        "feature": "f68",
+        "ks_stat": 0.0248420884468899,
+        "pvalue": 0.028675501121812757,
+        "std_mean_delta": 0.02905116293679653
+      },
+      {
+        "feature": "f95",
+        "ks_stat": 0.024530723304981294,
+        "pvalue": 0.03266879303676953,
+        "std_mean_delta": 0.030653686917671726
+      },
+      {
+        "feature": "f6",
+        "ks_stat": 0.02447153762638188,
+        "pvalue": 0.033642139979148514,
+        "std_mean_delta": 0.043811323792177954
+      }
+    ]
+  },
+  "leakage_checks": {
+    "id_unique": true,
+    "id_not_used_as_feature": true,
+    "max_abs_feature_target_corr": 0.3251330406604341,
+    "note": "No feature is near-perfectly correlated with target; IDs are unique and excluded."
+  }
+}

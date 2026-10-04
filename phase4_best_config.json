@@ -1,0 +1,32 @@
+{
+  "best_experiment": "LR_C3",
+  "best_model": "LogisticRegression",
+  "best_macro_f1": 0.7968988224298634,
+  "row": {
+    "experiment": "LR_C3",
+    "model": "LogisticRegression",
+    "preprocessing": "median impute + StandardScaler (fit train only)",
+    "features": "all 174",
+    "hyperparameters": "C=3, penalty=l2, solver=lbfgs, class_weight=None, max_iter=1000",
+    "macro_f1": 0.7968988224298634,
+    "weighted_f1": 0.7825315145768467,
+    "accuracy": 0.7859147517979301,
+    "time_sec": 12.574,
+    "notes": "Fill C-grid gap between 1.0 (0.7956) and 10.0 (0.7959)"
+  },
+  "class_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "split": {
+    "test_size": 0.2,
+    "stratify": true,
+    "random_state": 42
+  },
+  "competition_metric": "macro_f1 (primary); also tracked weighted_f1 and accuracy"
+}

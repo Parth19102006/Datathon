@@ -1,0 +1,46 @@
+{
+  "Logistic Regression": {
+    "best_params": {
+      "imputation": "median",
+      "C": 10.0,
+      "penalty": "l2",
+      "solver": "lbfgs",
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "best_macro_f1": 0.795856
+  },
+  "HistGradientBoosting": {
+    "best_params": {
+      "learning_rate": 0.14328488986345106,
+      "max_iter": 200,
+      "max_leaf_nodes": 37,
+      "max_depth": 7,
+      "min_samples_leaf": 81,
+      "l2_regularization": 0.651216814777311,
+      "class_weight": null
+    },
+    "best_macro_f1": 0.7801392201182283
+  },
+  "LightGBM": {
+    "best_params": {
+      "objective": "multiclass",
+      "num_class": 7,
+      "metric": "multi_logloss",
+      "verbosity": -1,
+      "n_jobs": -1,
+      "random_state": 42,
+      "learning_rate": 0.07921743455371703,
+      "n_estimators": 500,
+      "num_leaves": 30,
+      "max_depth": 8,
+      "min_child_samples": 23,
+      "subsample": 0.7741721785653952,
+      "colsample_bytree": 0.6521351677938568,
+      "reg_alpha": 0.4694209700587524,
+      "reg_lambda": 8.513585349506269e-05,
+      "class_weight": "balanced"
+    },
+    "best_macro_f1": 0.8026246838195087
+  }
+}

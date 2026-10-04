@@ -1,0 +1,46 @@
+2026-10-03 18:46:51,965  Loading data ...
+2026-10-03 18:46:59,699  Splitting data (stratified 80/20, seed=42) ...
+2026-10-03 18:47:00,392  Train: (182431, 174)  |  Val: (45608, 174)
+2026-10-03 18:47:00,401  Class distribution (train):
+0    0.120199
+1    0.011045
+2    0.232285
+3    0.227280
+4    0.144553
+5    0.261140
+6    0.003497
+2026-10-03 18:47:00,402  ============================================================
+2026-10-03 18:47:00,402  LOGISTIC REGRESSION — targeted grid (lbfgs solver)
+2026-10-03 18:47:00,402  ============================================================
+2026-10-03 18:47:00,402    Building median-imputed + scaled matrices ...
+2026-10-03 18:47:06,519    Building mean-imputed + scaled matrices ...
+2026-10-03 18:47:08,369    LR trial: {'imputation': 'median', 'C': 0.01, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': 'balanced', 'max_iter': 1000}
+2026-10-03 18:47:16,470      -> Macro F1=0.7739  Acc=0.7747  WF1=0.7767  [8.1s]
+2026-10-03 18:47:16,470    LR trial: {'imputation': 'median', 'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': 'balanced', 'max_iter': 1000}
+2026-10-03 18:47:24,983      -> Macro F1=0.7762  Acc=0.7749  WF1=0.7770  [8.5s]
+2026-10-03 18:47:24,984    LR trial: {'imputation': 'median', 'C': 1.0, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': 'balanced', 'max_iter': 1000}
+2026-10-03 18:47:34,069      -> Macro F1=0.7760  Acc=0.7748  WF1=0.7768  [9.0s]
+2026-10-03 18:47:34,069    LR trial: {'imputation': 'median', 'C': 10.0, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': 'balanced', 'max_iter': 1000}
+2026-10-03 18:47:43,505      -> Macro F1=0.7759  Acc=0.7750  WF1=0.7770  [9.4s]
+2026-10-03 18:47:43,505    LR trial: {'imputation': 'median', 'C': 100.0, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': 'balanced', 'max_iter': 1000}
+2026-10-03 18:47:53,409      -> Macro F1=0.7760  Acc=0.7751  WF1=0.7771  [9.9s]
+2026-10-03 18:47:53,409    LR trial: {'imputation': 'median', 'C': 1.0, 'penalty': None, 'solver': 'lbfgs', 'class_weight': 'balanced', 'max_iter': 1000}
+2026-10-03 18:48:02,715      -> Macro F1=0.7759  Acc=0.7747  WF1=0.7768  [9.2s]
+2026-10-03 18:48:02,716    LR trial: {'imputation': 'median', 'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': None, 'max_iter': 1000}
+2026-10-03 18:48:10,751      -> Macro F1=0.7950  Acc=0.7858  WF1=0.7825  [8.0s]
+2026-10-03 18:48:10,752    LR trial: {'imputation': 'median', 'C': 1.0, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': None, 'max_iter': 1000}
+2026-10-03 18:48:17,783      -> Macro F1=0.7956  Acc=0.7858  WF1=0.7824  [7.0s]
+2026-10-03 18:48:17,784    LR trial: {'imputation': 'median', 'C': 10.0, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': None, 'max_iter': 1000}
+2026-10-03 18:48:24,027      -> Macro F1=0.7959  Acc=0.7860  WF1=0.7826  [6.2s]
+2026-10-03 18:48:24,028    LR trial: {'imputation': 'mean', 'C': 1.0, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': 'balanced', 'max_iter': 1000}
+2026-10-03 18:48:34,363      -> Macro F1=0.7759  Acc=0.7747  WF1=0.7767  [10.3s]
+2026-10-03 18:48:34,363    LR trial: {'imputation': 'mean', 'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs', 'class_weight': 'balanced', 'max_iter': 1000}
+2026-10-03 18:48:43,777      -> Macro F1=0.7772  Acc=0.7749  WF1=0.7769  [9.4s]
+2026-10-03 18:48:43,777  Best LR Macro F1 = 0.7959
+2026-10-03 18:48:43,791  ============================================================
+2026-10-03 18:48:43,791  HISTGRADIENTBOOSTING — Optuna (40 trials)
+2026-10-03 18:48:43,791  ============================================================
+2026-10-03 18:54:37,073    HGB #0 -> MF1=0.7764  lr=0.0357  leaves=50  depth=7  iter=500  [343.8s]
+2026-10-03 18:55:42,424    HGB #1 -> MF1=0.7178  lr=0.0773  leaves=16  depth=10  iter=400  [63.7s]
+2026-10-03 18:58:03,893    HGB #2 -> MF1=0.7521  lr=0.0281  leaves=36  depth=5  iter=300  [137.7s]
+2026-10-03 22:20:42,703    HGB #3 -> MF1=0.7902  lr=0.0472  leaves=24  depth=7  iter=400  [12154.9s]
