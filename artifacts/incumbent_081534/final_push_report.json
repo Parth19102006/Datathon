@@ -1,0 +1,399 @@
+{
+  "incumbent": {
+    "lb_score": 0.81534,
+    "exact_recipe_reconstructed": false,
+    "incumbent_file": "submission_mlp128_xgb45_lr15.csv",
+    "incumbent_confidence": "LOW",
+    "reason": "No file or metadata explicitly maps 0.81534 to a submission. submission_mlp128_xgb45_lr15.csv is the most suggestive filename, but this is an inference, not proof.",
+    "incumbent_submission": {
+      "file": "submission_mlp128_xgb45_lr15.csv",
+      "sha16": "84601247a8b5d992",
+      "rows": 97731,
+      "distribution": {
+        "1": 11747,
+        "2": 1197,
+        "3": 22884,
+        "4": 22388,
+        "5": 15018,
+        "6": 24101,
+        "7": 396
+      }
+    },
+    "all_submission_candidates": [
+      {
+        "file": "submission (1).csv",
+        "sha16": "127d4939511b693b",
+        "rows": 97731,
+        "distribution": {
+          "1": 11230,
+          "2": 1054,
+          "3": 22416,
+          "4": 22179,
+          "5": 14954,
+          "6": 25563,
+          "7": 335
+        }
+      },
+      {
+        "file": "submission (5).csv",
+        "sha16": "efd0b4fdf6a72a37",
+        "rows": 97731,
+        "distribution": {
+          "1": 11511,
+          "2": 1093,
+          "3": 23273,
+          "4": 22081,
+          "5": 14384,
+          "6": 25048,
+          "7": 341
+        }
+      },
+      {
+        "file": "submission (6).csv",
+        "sha16": "5ba9ab1e1c17e844",
+        "rows": 97731,
+        "distribution": {
+          "1": 11762,
+          "2": 1111,
+          "3": 22514,
+          "4": 22503,
+          "5": 14561,
+          "6": 24947,
+          "7": 333
+        }
+      },
+      {
+        "file": "submission3.csv",
+        "sha16": "6395d4e403f11e8f",
+        "rows": 97731,
+        "distribution": {
+          "1": 11474,
+          "2": 992,
+          "3": 23029,
+          "4": 22819,
+          "5": 13249,
+          "6": 25832,
+          "7": 336
+        }
+      },
+      {
+        "file": "submission_ensemble.csv",
+        "sha16": "3115dd4e99ce5e3a",
+        "rows": 97731,
+        "distribution": {
+          "1": 11792,
+          "2": 1076,
+          "3": 22865,
+          "4": 22634,
+          "5": 15258,
+          "6": 23768,
+          "7": 338
+        }
+      },
+      {
+        "file": "submission_improved2.csv",
+        "sha16": "f206a136117e6ec9",
+        "rows": 97731,
+        "distribution": {
+          "1": 11606,
+          "2": 1110,
+          "3": 22168,
+          "4": 22963,
+          "5": 14146,
+          "6": 25387,
+          "7": 351
+        }
+      },
+      {
+        "file": "submission_lgb.csv",
+        "sha16": "a6069c6d8f13f415",
+        "rows": 97731,
+        "distribution": {
+          "1": 11899,
+          "2": 1091,
+          "3": 22718,
+          "4": 22570,
+          "5": 16274,
+          "6": 22839,
+          "7": 340
+        }
+      },
+      {
+        "file": "submission_lr.csv",
+        "sha16": "674fbfdf72455b56",
+        "rows": 97731,
+        "distribution": {
+          "1": 11637,
+          "2": 1064,
+          "3": 23445,
+          "4": 22549,
+          "5": 11214,
+          "6": 27487,
+          "7": 335
+        }
+      },
+      {
+        "file": "submission_lr_c3.csv",
+        "sha16": "fa3016e11e71de43",
+        "rows": 97731,
+        "distribution": {
+          "1": 11642,
+          "2": 1063,
+          "3": 23447,
+          "4": 22553,
+          "5": 11203,
+          "6": 27488,
+          "7": 335
+        }
+      },
+      {
+        "file": "submission_mlp128_xgb45_lr15.csv",
+        "sha16": "84601247a8b5d992",
+        "rows": 97731,
+        "distribution": {
+          "1": 11747,
+          "2": 1197,
+          "3": 22884,
+          "4": 22388,
+          "5": 15018,
+          "6": 24101,
+          "7": 396
+        }
+      },
+      {
+        "file": "submission_next.csv",
+        "sha16": "e9ff81becd88d441",
+        "rows": 97731,
+        "distribution": {
+          "1": 11434,
+          "2": 1049,
+          "3": 24101,
+          "4": 22432,
+          "5": 12607,
+          "6": 25759,
+          "7": 349
+        }
+      },
+      {
+        "file": "submission_phase4b_multipliers.csv",
+        "sha16": "4348be22f30b0211",
+        "rows": 97731,
+        "distribution": {
+          "1": 11700,
+          "2": 1060,
+          "3": 23102,
+          "4": 22619,
+          "5": 14434,
+          "6": 24478,
+          "7": 338
+        }
+      }
+    ],
+    "probability_artifacts": [
+      {
+        "file": "lgbm_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "ea05887ba28e352a"
+      },
+      {
+        "file": "xgb_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "8ca0369a2e550d60"
+      },
+      {
+        "file": "cb_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "327cfe702c23ac85"
+      },
+      {
+        "file": "ensemble_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "7ae00bae3a333e2c"
+      },
+      {
+        "file": "best_3way_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "3ee71f8b074f939c"
+      },
+      {
+        "file": "phase4b_best_3way_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "8a644b8fe5820b55"
+      },
+      {
+        "file": "next_lgbm_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "78485f69f7e985db"
+      },
+      {
+        "file": "next_xgb_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "343f01bbae4abb70"
+      },
+      {
+        "file": "next_cb_test_proba.npy",
+        "shape": [
+          97731,
+          7
+        ],
+        "sha16": "2bc8465cb7579a38"
+      }
+    ],
+    "oof_artifacts": [
+      "artifacts\\lgb_fast_norf_a0.00_20261004_115056\\oof_proba.npy",
+      "artifacts\\lgb_fast_rf_a0.00_20261004_115355\\oof_proba.npy",
+      "artifacts\\lgb_fast_rf_a0.25_20261004_120031\\oof_proba.npy",
+      "artifacts\\lgb_fast_rf_a0.50_20261004_115702\\oof_proba.npy",
+      "artifacts\\lgb_fast_rf_a0.75_20261004_120358\\oof_proba.npy",
+      "artifacts\\LGBM_balanced_stage0_fast\\oof_proba.npy"
+    ]
+  },
+  "individual_validation": {
+    "lgbm": {
+      "macro_f1": 0.8026246838195087,
+      "per_class_f1": {
+        "1": 0.9164855072463768,
+        "2": 0.8725099601593626,
+        "3": 0.8590142305155027,
+        "4": 0.8223825679743871,
+        "5": 0.5765164952110677,
+        "6": 0.7241120007077454,
+        "7": 0.8473520249221184
+      }
+    },
+    "xgb": {
+      "macro_f1": 0.7558379730276046,
+      "per_class_f1": {
+        "1": 0.8987084870848708,
+        "2": 0.7444444444444445,
+        "3": 0.8319668355596499,
+        "4": 0.7965748888258113,
+        "5": 0.4991715357111712,
+        "6": 0.7294590790267445,
+        "7": 0.7905405405405406
+      }
+    },
+    "catboost": {
+      "macro_f1": 0.7431613433658402,
+      "per_class_f1": {
+        "1": 0.8970956666975968,
+        "2": 0.7828947368421053,
+        "3": 0.8288552203963931,
+        "4": 0.7868387462771238,
+        "5": 0.48105710589539824,
+        "6": 0.7307314389026451,
+        "7": 0.6946564885496184
+      }
+    },
+    "ensemble": {
+      "macro_f1": 0.8041093247986503,
+      "per_class_f1": {
+        "1": 0.9166969147005445,
+        "2": 0.8748748748748749,
+        "3": 0.8590117647058824,
+        "4": 0.8221438107953462,
+        "5": 0.5722602241304031,
+        "6": 0.7292885202968136,
+        "7": 0.8544891640866873
+      }
+    },
+    "best_3way": {
+      "macro_f1": 0.8045457825403816,
+      "per_class_f1": {
+        "1": 0.9167424104708235,
+        "2": 0.8748748748748749,
+        "3": 0.8595064629847239,
+        "4": 0.8234845959716204,
+        "5": 0.573346116970278,
+        "6": 0.7329343394917165,
+        "7": 0.8509316770186336
+      }
+    },
+    "next_lgbm": {
+      "macro_f1": 0.8032899304555273,
+      "per_class_f1": {
+        "1": 0.9202420242024203,
+        "2": 0.8632218844984803,
+        "3": 0.8615024572899602,
+        "4": 0.8252834143088501,
+        "5": 0.5748530076888286,
+        "6": 0.7398314871049142,
+        "7": 0.8380952380952381
+      }
+    },
+    "next_xgb": {
+      "macro_f1": 0.7993508544370492,
+      "per_class_f1": {
+        "1": 0.9130356174290364,
+        "2": 0.8746298124383021,
+        "3": 0.8526444800603376,
+        "4": 0.8165409225479897,
+        "5": 0.5764806135492118,
+        "6": 0.7226183621949599,
+        "7": 0.8395061728395061
+      }
+    },
+    "next_catboost": {
+      "macro_f1": 0.7796176962577869,
+      "per_class_f1": {
+        "1": 0.9037394882805511,
+        "2": 0.7983606557377049,
+        "3": 0.8469198151412645,
+        "4": 0.8034571674147646,
+        "5": 0.5727063287708362,
+        "6": 0.6997381838225162,
+        "7": 0.8324022346368715
+      }
+    }
+  },
+  "best_cheap_blend": {
+    "name": "next_lgbm_xgb_cb",
+    "validation_macro_f1": 0.8071144945315362,
+    "weights": {
+      "blend": "next_lgbm_xgb_cb",
+      "next_lgbm": 0.7750000000000002,
+      "next_xgb": 0.2,
+      "next_catboost": 0.024999999999999745,
+      "macro_f1": 0.8071144945315362
+    },
+    "submission": {
+      "file": "submission_final_blend.csv",
+      "sha16": "8a53fbb9ffeeab42",
+      "rows": 97731,
+      "distribution": {
+        "1": 11670,
+        "2": 1053,
+        "3": 23045,
+        "4": 22748,
+        "5": 14549,
+        "6": 24334,
+        "7": 332
+      }
+    }
+  },
+  "recommendation": "KEEP INCUMBENT unless manual leaderboard submission slots allow a separate candidate; the best cheap blend improves old local validation but does not reconstruct/prove superiority over the stated 0.81534 incumbent."
+}

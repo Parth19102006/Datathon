@@ -1,0 +1,27 @@
+{
+  "train_rows": 228039,
+  "test_rows": 97731,
+  "n_features": 174,
+  "class_counts": {
+    "1": 27410,
+    "2": 2519,
+    "3": 52970,
+    "4": 51829,
+    "5": 32964,
+    "6": 59550,
+    "7": 797
+  },
+  "train_missing_total": 5949963,
+  "test_missing_total": 2550057,
+  "train_missing_min_by_feature": 33804,
+  "train_missing_max_by_feature": 34621,
+  "test_missing_min_by_feature": 14432,
+  "test_missing_max_by_feature": 14935,
+  "duplicate_feature_rows": 0,
+  "duplicate_full_train_rows": 0,
+  "constant_columns": [],
+  "near_constant_columns_99_9pct": [],
+  "dtypes": {
+    "float64": 174
+  }
+}

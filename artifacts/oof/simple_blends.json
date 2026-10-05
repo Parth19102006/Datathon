@@ -1,0 +1,43 @@
+[
+  {
+    "blend": "lgbm_alone",
+    "macro_f1": 0.8008957737398216,
+    "weights": {
+      "lgbm": 1.0
+    }
+  },
+  {
+    "blend": "lgbm_mlp_50_50",
+    "macro_f1": 0.8139581714240798,
+    "weights": {
+      "lgbm": 0.5,
+      "mlp": 0.5
+    }
+  },
+  {
+    "blend": "lgbm_mlp_70_30",
+    "macro_f1": 0.8133990583171516,
+    "weights": {
+      "lgbm": 0.7,
+      "mlp": 0.3
+    }
+  },
+  {
+    "blend": "lgbm_mlp_80_20",
+    "macro_f1": 0.8098687595723628,
+    "weights": {
+      "lgbm": 0.8,
+      "mlp": 0.2
+    }
+  },
+  {
+    "blend": "equal_weight_useful",
+    "macro_f1": 0.8146051902347967,
+    "weights": {
+      "lgbm": 0.25,
+      "mlp": 0.25,
+      "lr": 0.25,
+      "xgb": 0.25
+    }
+  }
+]

@@ -1,0 +1,273 @@
+{
+  "lb_score": 0.81534,
+  "exact_recipe_reconstructed": false,
+  "incumbent_file": "submission_mlp128_xgb45_lr15.csv",
+  "incumbent_confidence": "LOW",
+  "reason": "No file or metadata explicitly maps 0.81534 to a submission. submission_mlp128_xgb45_lr15.csv is the most suggestive filename, but this is an inference, not proof.",
+  "incumbent_submission": {
+    "file": "submission_mlp128_xgb45_lr15.csv",
+    "sha16": "84601247a8b5d992",
+    "rows": 97731,
+    "distribution": {
+      "1": 11747,
+      "2": 1197,
+      "3": 22884,
+      "4": 22388,
+      "5": 15018,
+      "6": 24101,
+      "7": 396
+    }
+  },
+  "all_submission_candidates": [
+    {
+      "file": "submission (1).csv",
+      "sha16": "127d4939511b693b",
+      "rows": 97731,
+      "distribution": {
+        "1": 11230,
+        "2": 1054,
+        "3": 22416,
+        "4": 22179,
+        "5": 14954,
+        "6": 25563,
+        "7": 335
+      }
+    },
+    {
+      "file": "submission (5).csv",
+      "sha16": "efd0b4fdf6a72a37",
+      "rows": 97731,
+      "distribution": {
+        "1": 11511,
+        "2": 1093,
+        "3": 23273,
+        "4": 22081,
+        "5": 14384,
+        "6": 25048,
+        "7": 341
+      }
+    },
+    {
+      "file": "submission (6).csv",
+      "sha16": "5ba9ab1e1c17e844",
+      "rows": 97731,
+      "distribution": {
+        "1": 11762,
+        "2": 1111,
+        "3": 22514,
+        "4": 22503,
+        "5": 14561,
+        "6": 24947,
+        "7": 333
+      }
+    },
+    {
+      "file": "submission3.csv",
+      "sha16": "6395d4e403f11e8f",
+      "rows": 97731,
+      "distribution": {
+        "1": 11474,
+        "2": 992,
+        "3": 23029,
+        "4": 22819,
+        "5": 13249,
+        "6": 25832,
+        "7": 336
+      }
+    },
+    {
+      "file": "submission_ensemble.csv",
+      "sha16": "3115dd4e99ce5e3a",
+      "rows": 97731,
+      "distribution": {
+        "1": 11792,
+        "2": 1076,
+        "3": 22865,
+        "4": 22634,
+        "5": 15258,
+        "6": 23768,
+        "7": 338
+      }
+    },
+    {
+      "file": "submission_improved2.csv",
+      "sha16": "f206a136117e6ec9",
+      "rows": 97731,
+      "distribution": {
+        "1": 11606,
+        "2": 1110,
+        "3": 22168,
+        "4": 22963,
+        "5": 14146,
+        "6": 25387,
+        "7": 351
+      }
+    },
+    {
+      "file": "submission_lgb.csv",
+      "sha16": "a6069c6d8f13f415",
+      "rows": 97731,
+      "distribution": {
+        "1": 11899,
+        "2": 1091,
+        "3": 22718,
+        "4": 22570,
+        "5": 16274,
+        "6": 22839,
+        "7": 340
+      }
+    },
+    {
+      "file": "submission_lr.csv",
+      "sha16": "674fbfdf72455b56",
+      "rows": 97731,
+      "distribution": {
+        "1": 11637,
+        "2": 1064,
+        "3": 23445,
+        "4": 22549,
+        "5": 11214,
+        "6": 27487,
+        "7": 335
+      }
+    },
+    {
+      "file": "submission_lr_c3.csv",
+      "sha16": "fa3016e11e71de43",
+      "rows": 97731,
+      "distribution": {
+        "1": 11642,
+        "2": 1063,
+        "3": 23447,
+        "4": 22553,
+        "5": 11203,
+        "6": 27488,
+        "7": 335
+      }
+    },
+    {
+      "file": "submission_mlp128_xgb45_lr15.csv",
+      "sha16": "84601247a8b5d992",
+      "rows": 97731,
+      "distribution": {
+        "1": 11747,
+        "2": 1197,
+        "3": 22884,
+        "4": 22388,
+        "5": 15018,
+        "6": 24101,
+        "7": 396
+      }
+    },
+    {
+      "file": "submission_next.csv",
+      "sha16": "e9ff81becd88d441",
+      "rows": 97731,
+      "distribution": {
+        "1": 11434,
+        "2": 1049,
+        "3": 24101,
+        "4": 22432,
+        "5": 12607,
+        "6": 25759,
+        "7": 349
+      }
+    },
+    {
+      "file": "submission_phase4b_multipliers.csv",
+      "sha16": "4348be22f30b0211",
+      "rows": 97731,
+      "distribution": {
+        "1": 11700,
+        "2": 1060,
+        "3": 23102,
+        "4": 22619,
+        "5": 14434,
+        "6": 24478,
+        "7": 338
+      }
+    }
+  ],
+  "probability_artifacts": [
+    {
+      "file": "lgbm_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "ea05887ba28e352a"
+    },
+    {
+      "file": "xgb_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "8ca0369a2e550d60"
+    },
+    {
+      "file": "cb_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "327cfe702c23ac85"
+    },
+    {
+      "file": "ensemble_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "7ae00bae3a333e2c"
+    },
+    {
+      "file": "best_3way_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "3ee71f8b074f939c"
+    },
+    {
+      "file": "phase4b_best_3way_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "8a644b8fe5820b55"
+    },
+    {
+      "file": "next_lgbm_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "78485f69f7e985db"
+    },
+    {
+      "file": "next_xgb_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "343f01bbae4abb70"
+    },
+    {
+      "file": "next_cb_test_proba.npy",
+      "shape": [
+        97731,
+        7
+      ],
+      "sha16": "2bc8465cb7579a38"
+    }
+  ],
+  "oof_artifacts": [
+    "artifacts\\lgb_fast_norf_a0.00_20261004_115056\\oof_proba.npy",
+    "artifacts\\lgb_fast_rf_a0.00_20261004_115355\\oof_proba.npy",
+    "artifacts\\lgb_fast_rf_a0.25_20261004_120031\\oof_proba.npy",
+    "artifacts\\lgb_fast_rf_a0.50_20261004_115702\\oof_proba.npy",
+    "artifacts\\lgb_fast_rf_a0.75_20261004_120358\\oof_proba.npy",
+    "artifacts\\LGBM_balanced_stage0_fast\\oof_proba.npy"
+  ]
+}
